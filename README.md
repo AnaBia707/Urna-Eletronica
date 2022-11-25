@@ -1,0 +1,1 @@
+Faltam adicionar o footer da página, a parte lógica e o banco de dados.

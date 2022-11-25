@@ -1,0 +1,105 @@
+@charset: "uft-8";
+/* CONHEÇA O SIMULADOR DE URNA ELETRÔNICA */
+section#bg-page h2{
+position: absolute;
+left: 8.26%;
+right: 49.65%;
+top: 44.92%;
+bottom: 46.78%;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 48px;
+line-height: 58px;
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #FFFFFF;
+}
+
+/* Para ter acesso ao sistema de votação, basta clicar no botão ao lado. */
+section#bg-page p{
+position: absolute;
+left: 16.53%;
+right: 57.92%;
+top: 55.96%;
+bottom: 33.33%;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 450;
+font-size: 25px;
+line-height: 30px;
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #FFFFFF;
+}
+
+/* Imagem da urna */
+#urna-imagem{
+position: absolute;
+left: 62.88%;
+right: 8.26%;
+top: 35.25%;
+bottom: 37.11%;
+}
+
+/* Botão para votar */
+#botao-vote{
+    position: absolute;
+    left: 73.50%;
+    right: 18.50%;
+    top: 69.89%;
+    bottom: 24.50%;
+
+background: #D98200;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 15px;
+}
+
+/* VOTAR */
+#botao-vote p{
+    margin-top: -1.00%;
+    margin-left: -1.00%;
+    color: #FFFFFF;
+    
+    }
+
+/*ÍCONE HOME*/
+#home-page{
+    position: absolute;
+    left: 1.15%;
+    right: 93.61%;
+    top: 2.07%;
+    background: #D98200;
+}
+
+
+/*IMAGEM DA URNA*/
+.css img{
+    margin-left: -25em;
+    margin-right: auto;
+    width: 150em;
+    margin-top: -30em;
+    margin-bottom: auto;
+}
+
+/*FRASE NA URNA*/
+section h2{
+position: absolute;
+left: 36.32%;
+right: 51.6%;
+top: 19em;
+bottom: 54.59%;
+
+color: #b0bec5;
+font-style: normal;
+font-weight: 400;
+font-size: 10px;
+line-height: 11px;
+
+}
