@@ -1,1 +1,2 @@
-Faltam adicionar o footer da página, a parte lógica e o banco de dados.
+O simulador da urna está funcional
+A parte das imagens está com conflitando. Revisar parte de etapas do CSS.

@@ -6,23 +6,80 @@
     <title>Simulador de Urna Eletrônica</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"/>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;800&display=swap" rel="stylesheet"/>
-    <link rel="stylesheet" type="text/css" href="css/layout.css"/>
+    <link rel="stylesheet" type="text/css" href="css/estilo.css"/>
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 </head>
 <body style="background-color: #008C49;">
     <section id="urna-page">
         <div class="css">
-            <a href="file:///C:/Users/anabe/OneDrive/Documentos/Urna%20Eletr%C3%B4nica/index.html" id="home-page" class="btn-floating btn-large waves-effect waves-light"><i class="material-icons">home</i></a>
-                <a href="#"><img src="imagens/urna-page-4.png" id="urna"></a>
+            <a href="index.html" id="home-page" class="btn-floating btn-large waves-effect waves-light"><i class="material-icons">home</i></a>
                     </div>
-                        <h2><p>SIMULADOR DE URNA ELETRÔNICA</p></h2>
-                            
+                                       
         </section>
 
+        <div class="urna">
+            <div class="display">
+                <div class="d-1">
+                    <div class="d-1-left">
+                        <div class="d-1-1">
+                            <span></span>
+                        </div>
+                        <div class="d-1-2">
+                            <span></span>
+                        </div>
+                        <div class="d-1-3">
+                            <div class="numero pisca"></div>
+                            <div class="numero"></div>
+                        </div>
+                        <div class="d-1-4">
+                            Nome: ANA BEATRIZ DA SILVA ALBUQUERQUE<br/>
+                            Curso: ADS<br/>
+                        </div>
+                    </div>
+                    <div class="d-1-right">
+                        <div class="d-1-image">
+                            <img src="imagens/eu.jpeg" alt="" />
+                            Representante
+                        </div>
+                    </div>
+                </div>
+                <div class="d-2">
+                    Aperte a tecla:<br/>
+                    CONFIRMA para CONFIRMAR este voto<br/>
+                    CORRIGE para REINICIAR este voto
+                </div>
+            </div>
+            <div class="lateral">
+                <div class="teclado">
+                    <div class="teclado--linha">
+                        <div class="teclado--botao" onclick="clicou('1')">1</div>
+                        <div class="teclado--botao" onclick="clicou('2')">2</div>
+                        <div class="teclado--botao" onclick="clicou('3')">3</div>
+                    </div>
+                    <div class="teclado--linha">
+                        <div class="teclado--botao" onclick="clicou('4')">4</div>
+                        <div class="teclado--botao" onclick="clicou('5')">5</div>
+                        <div class="teclado--botao" onclick="clicou('6')">6</div>
+                    </div>
+                    <div class="teclado--linha">
+                        <div class="teclado--botao" onclick="clicou('7')">7</div>
+                        <div class="teclado--botao" onclick="clicou('8')">8</div>
+                        <div class="teclado--botao" onclick="clicou('9')">9</div>
+                    </div>
+                    <div class="teclado--linha">
+                        <div class="teclado--botao" onclick="clicou('0')">0</div>
+                    </div>
+                    <div class="teclado--linha">
+                        <div class="teclado--botao botao--branco" onclick="branco()">BRANCO</div>
+                        <div class="teclado--botao botao--corrige" onclick="corrige()">CORRIGE</div>
+                        <div class="teclado--botao botao--confirma" onclick="confirma()">CONFIRMA</div>
+                    </div>
+                </div>
+            </div>
 
-
-
-
+            
+            <script src="js/etapa.js"></script>
+            <script src="js/js.js"></script>    
 
 
 
